@@ -1,0 +1,119 @@
+*{
+	box-sizing: : border-box;
+}
+
+.div1{
+	top: 100px;
+	width: 25%;
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #90EE90;
+	vertical-align: center;
+	
+}
+
+.div2{
+	top: 100px;
+	width: 25%;
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: yellow
+	
+}
+
+.div3{
+	top: 100px;
+	width: 25%;
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: blue;
+	
+}
+
+@media(min-width: 992px){
+	.div1{
+	top: 100px;
+	width: 25%;
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #90EE90;
+	vertical-align: center;
+	
+}
+
+.div2{
+	top: 100px;
+	width: 25%;
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: yellow
+	
+}
+
+.div3{
+	top: 100px;
+	width: 25%;
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: blue;
+	
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.div3{
+		width: 100%;
+		position: relative;
+	}
+}
+
+
+@media(max-width: 767px){
+	.div1{
+		width: 100%;
+	}
+
+	.div2{
+		width: 100%;
+	}
+
+	.div3{
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+
